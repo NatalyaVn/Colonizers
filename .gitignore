@@ -1,0 +1,14 @@
+build
+node_modules
+public/scripts
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+/logs

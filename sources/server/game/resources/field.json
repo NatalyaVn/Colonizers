@@ -1,0 +1,823 @@
+{
+  "nodes" : [
+    {
+      "id" : 1,
+      "paths" : [0, 1, 2],
+      "specific" : "special"
+    },
+    {
+      "id" : 2,
+      "paths" : [0, 3, 4],
+      "specific" : "field"
+    },
+    {
+      "id" : 3,
+      "paths" : [0, 5, 6],
+      "specific" : "none"
+    },
+    {
+      "id" : 4,
+      "paths" : [0, 1, 7],
+      "specific" : "special"
+    },
+    {
+      "id" : 5,
+      "paths" : [2, 3, 8],
+      "specific" : "none"
+    },
+    {
+      "id" : 6,
+      "paths" : [4, 5, 9],
+      "specific" : "field"
+    },
+    {
+      "id" : 7,
+      "paths" : [0, 6, 10],
+      "specific" : "none"
+    },
+    {
+      "id" : 8,
+      "paths" : [7, 11, 12],
+      "specific" : "none"
+    },
+    {
+      "id" : 9,
+      "paths" : [8, 13, 14],
+      "specific" : "none"
+    },
+    {
+      "id" : 10,
+      "paths" : [9, 15, 16],
+      "specific" : "none"
+    },
+    {
+      "id" : 11,
+      "paths" : [10, 17, 18],
+      "specific" : "wood"
+    },
+    {
+      "id" : 12,
+      "paths" : [0, 11, 19],
+      "specific" : "mountain"
+    },
+    {
+      "id" : 13,
+      "paths" : [12, 13, 20],
+      "specific" : "none"
+    },
+    {
+      "id" : 14,
+      "paths" : [14, 15, 21],
+      "specific" : "none"
+    },
+    {
+      "id" : 15,
+      "paths" : [16, 17, 22],
+      "specific" : "none"
+    },
+    {
+      "id" : 16,
+      "paths" : [0, 18, 23],
+      "specific" : "wood"
+    },
+    {
+      "id" : 17,
+      "paths" : [19, 24, 25],
+      "specific" : "mountain"
+    },
+    {
+      "id" : 18,
+      "paths" : [20, 26, 27],
+      "specific" : "none"
+    },
+    {
+      "id" : 19,
+      "paths" : [21, 28, 29],
+      "specific" : "none"
+    },
+    {
+      "id" : 20,
+      "paths" : [22, 30, 31],
+      "specific" : "none"
+    },
+    {
+      "id" : 21,
+      "paths" : [23, 32, 33],
+      "specific" : "none"
+    },
+    {
+      "id" : 22,
+      "paths" : [0, 24, 34],
+      "specific" : "none"
+    },
+    {
+      "id" : 23,
+      "paths" : [25, 26, 35],
+      "specific" : "none"
+    },
+    {
+      "id" : 24,
+      "paths" : [27, 28, 36],
+      "specific" : "none"
+    },
+    {
+      "id" : 25,
+      "paths" : [29, 30, 37],
+      "specific" : "none"
+    },
+    {
+      "id" : 26,
+      "paths" : [31, 32, 38],
+      "specific" : "none"
+    },
+    {
+      "id" : 27,
+      "paths" : [0, 33, 39],
+      "specific" : "special"
+    },
+    {
+      "id" : 28,
+      "paths" : [0, 34, 40],
+      "specific" : "none"
+    },
+    {
+      "id" : 29,
+      "paths" : [35, 41, 42],
+      "specific" : "none"
+    },
+    {
+      "id" : 30,
+      "paths" : [36, 43, 44],
+      "specific" : "none"
+    },
+    {
+      "id" : 31,
+      "paths" : [37, 45, 46],
+      "specific" : "none"
+    },
+    {
+      "id" : 32,
+      "paths" : [38, 47, 48],
+      "specific" : "none"
+    },
+    {
+      "id" : 33,
+      "paths" : [0, 39, 49],
+      "specific" : "special"
+    },
+    {
+      "id" : 34,
+      "paths" : [40, 41, 50],
+      "specific" : "clay"
+    },
+    {
+      "id" : 35,
+      "paths" : [42, 43, 51],
+      "specific" : "none"
+    },
+    {
+      "id" : 36,
+      "paths" : [44, 45, 52],
+      "specific" : "none"
+    },
+    {
+      "id" : 37,
+      "paths" : [46, 47, 53],
+      "specific" : "none"
+    },
+    {
+      "id" : 38,
+      "paths" : [48, 49, 54],
+      "specific" : "none"
+    },
+    {
+      "id" : 39,
+      "paths" : [0, 50, 55],
+      "specific" : "clay"
+    },
+    {
+      "id" : 40,
+      "paths" : [51, 56, 57],
+      "specific" : "none"
+    },
+    {
+      "id" : 41,
+      "paths" : [52, 58, 59],
+      "specific" : "none"
+    },
+    {
+      "id" : 42,
+      "paths" : [53, 60, 61],
+      "specific" : "none"
+    },
+    {
+      "id" : 43,
+      "paths" : [0, 54, 62],
+      "specific" : "fur"
+    },
+    {
+      "id" : 44,
+      "paths" : [55, 56, 63],
+      "specific" : "none"
+    },
+    {
+      "id" : 45,
+      "paths" : [57, 58, 64],
+      "specific" : "none"
+    },
+    {
+      "id" : 46,
+      "paths" : [59, 60, 65],
+      "specific" : "none"
+    },
+    {
+      "id" : 47,
+      "paths" : [61, 62, 66],
+      "specific" : "fur"
+    },
+    {
+      "id" : 48,
+      "paths" : [0, 63, 67],
+      "specific" : "special"
+    },
+    {
+      "id" : 49,
+      "paths" : [64, 68, 69],
+      "specific" : "none"
+    },
+    {
+      "id" : 50,
+      "paths" : [65, 70, 71],
+      "specific" : "special"
+    },
+    {
+      "id" : 51,
+      "paths" : [0, 66, 72],
+      "specific" : "none"
+    },
+    {
+      "id" : 52,
+      "paths" : [0, 67, 68],
+      "specific" : "special"
+    },
+    {
+      "id" : 53,
+      "paths" : [0, 69, 70],
+      "specific" : "special"
+    },
+    {
+      "id" : 54,
+      "paths" : [0, 71, 72],
+      "specific" : "none"
+    }
+  ],
+  "paths" : [
+    {
+      "id" : 1,
+      "nodes" : [1, 4]
+    },
+    {
+      "id" : 2,
+      "nodes" : [1, 5]
+    },
+    {
+      "id" : 3,
+      "nodes" : [2, 5]
+    },
+    {
+      "id" : 4,
+      "nodes" : [2, 6]
+    },
+    {
+      "id" : 5,
+      "nodes" : [3, 6]
+    },
+    {
+      "id" : 6,
+      "nodes" : [3, 7]
+    },
+    {
+      "id" : 7,
+      "nodes" : [4, 8]
+    },
+    {
+      "id" : 8,
+      "nodes" : [5, 9]
+    },
+    {
+      "id" : 9,
+      "nodes" : [6, 10]
+    },
+    {
+      "id" : 10,
+      "nodes" : [7, 11]
+    },
+    {
+      "id" : 11,
+      "nodes" : [8, 12]
+    },
+    {
+      "id" : 12,
+      "nodes" : [8, 13]
+    },
+    {
+      "id" : 13,
+      "nodes" : [9, 13]
+    },
+    {
+      "id" : 14,
+      "nodes" : [9, 14]
+    },
+    {
+      "id" : 15,
+      "nodes" : [10, 14]
+    },
+    {
+      "id" : 16,
+      "nodes" : [10, 15]
+    },
+    {
+      "id" : 17,
+      "nodes" : [11, 15]
+    },
+    {
+      "id" : 18,
+      "nodes" : [11, 16]
+    },
+    {
+      "id" : 19,
+      "nodes" : [12, 17]
+    },
+    {
+      "id" : 20,
+      "nodes" : [13, 18]
+    },
+    {
+      "id" : 21,
+      "nodes" : [14, 19]
+    },
+    {
+      "id" : 22,
+      "nodes" : [15, 20]
+    },
+    {
+      "id" : 23,
+      "nodes" : [16, 21]
+    },
+    {
+      "id" : 24,
+      "nodes" : [17, 22]
+    },
+    {
+      "id" : 25,
+      "nodes" : [17, 23]
+    },
+    {
+      "id" : 26,
+      "nodes" : [18, 23]
+    },
+    {
+      "id" : 27,
+      "nodes" : [18, 24]
+    },
+    {
+      "id" : 28,
+      "nodes" : [19, 24]
+    },
+    {
+      "id" : 29,
+      "nodes" : [19, 25]
+    },
+    {
+      "id" : 30,
+      "nodes" : [20, 25]
+    },
+    {
+      "id" : 31,
+      "nodes" : [20, 26]
+    },
+    {
+      "id" : 32,
+      "nodes" : [21, 26]
+    },
+    {
+      "id" : 33,
+      "nodes" : [21, 27]
+    },
+    {
+      "id" : 34,
+      "nodes" : [22, 28]
+    },
+    {
+      "id" : 35,
+      "nodes" : [23, 29]
+    },
+    {
+      "id" : 36,
+      "nodes" : [24, 30]
+    },
+    {
+      "id" : 37,
+      "nodes" : [25, 31]
+    },
+    {
+      "id" : 38,
+      "nodes" : [26, 32]
+    },
+    {
+      "id" : 39,
+      "nodes" : [27, 33]
+    },
+    {
+      "id" : 40,
+      "nodes" : [28, 34]
+    },
+    {
+      "id" : 41,
+      "nodes" : [29, 34]
+    },
+    {
+      "id" : 42,
+      "nodes" : [29, 35]
+    },
+    {
+      "id" : 43,
+      "nodes" : [30, 35]
+    },
+    {
+      "id" : 44,
+      "nodes" : [30, 36]
+    },
+    {
+      "id" : 45,
+      "nodes" : [31, 36]
+    },
+    {
+      "id" : 46,
+      "nodes" : [31, 37]
+    },
+    {
+      "id" : 47,
+      "nodes" : [32, 37]
+    },
+    {
+      "id" : 48,
+      "nodes" : [32, 38]
+    },
+    {
+      "id" : 49,
+      "nodes" : [33, 38]
+    },
+    {
+      "id" : 50,
+      "nodes" : [34, 39]
+    },
+    {
+      "id" : 51,
+      "nodes" : [35, 40]
+    },
+    {
+      "id" : 52,
+      "nodes" : [36, 41]
+    },
+    {
+      "id" : 53,
+      "nodes" : [37, 42]
+    },
+    {
+      "id" : 54,
+      "nodes" : [38, 43]
+    },
+    {
+      "id" : 55,
+      "nodes" : [39, 44]
+    },
+    {
+      "id" : 56,
+      "nodes" : [40, 44]
+    },
+    {
+      "id" : 57,
+      "nodes" : [40, 45]
+    },
+    {
+      "id" : 58,
+      "nodes" : [41, 45]
+    },
+    {
+      "id" : 59,
+      "nodes" : [41, 46]
+    },
+    {
+      "id" : 60,
+      "nodes" : [42, 46]
+    },
+    {
+      "id" : 61,
+      "nodes" : [42, 47]
+    },
+    {
+      "id" : 62,
+      "nodes" : [43, 47]
+    },
+    {
+      "id" : 63,
+      "nodes" : [44, 48]
+    },
+    {
+      "id" : 64,
+      "nodes" : [45, 49]
+    },
+    {
+      "id" : 65,
+      "nodes" : [46, 50]
+    },
+    {
+      "id" : 66,
+      "nodes" : [47, 51]
+    },
+    {
+      "id" : 67,
+      "nodes" : [48, 52]
+    },
+    {
+      "id" : 68,
+      "nodes" : [49, 52]
+    },
+    {
+      "id" : 69,
+      "nodes" : [49, 53]
+    },
+    {
+      "id" : 70,
+      "nodes" : [50, 53]
+    },
+    {
+      "id" : 71,
+      "nodes" : [50, 54]
+    },
+    {
+      "id" : 72,
+      "nodes" : [51, 54]
+    }
+  ],
+  "hexes" : [
+    {
+      "id" : 1,
+      "token" : 5,
+      "resource" : "none",
+      "paths" : [1, 2, 7, 8, 12, 13],
+      "nodes" : [1, 4, 5, 8, 9, 13]
+    },
+    {
+      "id" : 2,
+      "token" : 2,
+      "resource" : "none",
+      "paths" : [3, 4, 8, 9, 14, 15],
+      "nodes" : [2, 5, 6, 9, 10, 14]
+    },
+    {
+      "id" : 3,
+      "token" : 6,
+      "resource" : "none",
+      "paths" : [5, 6, 9, 10, 16, 17],
+      "nodes" : [3, 6, 7, 10, 11, 15]
+    },
+    {
+      "id" : 12,
+      "token" : 10,
+      "resource" : "none",
+      "paths" : [11, 12, 19, 20, 25, 26],
+      "nodes" : [8, 12, 13, 17, 18, 23]
+    },
+    {
+      "id" : 13,
+      "token" : 9,
+      "resource" : "none",
+      "paths" : [13, 14, 20, 21, 27, 28],
+      "nodes" : [9, 13, 14, 18, 19, 24]
+    },
+    {
+      "id" : 14,
+      "token" : 4,
+      "resource" : "none",
+      "paths" : [15, 16, 21, 22, 29, 30],
+      "nodes" : [10, 14, 15, 19, 20, 25]
+    },
+    {
+      "id" : 4,
+      "token" : 3,
+      "resource" : "none",
+      "paths" : [17, 18, 22, 23, 31, 32],
+      "nodes" : [11, 15, 16, 20, 21, 26]
+    },
+    {
+      "id" : 11,
+      "token" : 8,
+      "resource" : "none",
+      "paths" : [24, 25, 34, 35, 40, 41],
+      "nodes" : [17, 22, 23, 28, 29, 34]
+    },
+    {
+      "id" : 18,
+      "token" : 11,
+      "resource" : "none",
+      "paths" : [26, 27, 35, 36, 42, 43],
+      "nodes" : [18, 23, 24, 29, 30, 35]
+    },
+    {
+      "id" : 15,
+      "token" : 5,
+      "resource" : "none",
+      "paths" : [30, 31, 37, 38, 46, 47],
+      "nodes" : [20, 25, 26, 31, 32, 37]
+    },
+    {
+      "id" : 5,
+      "token" : 8,
+      "resource" : "none",
+      "paths" : [32, 33, 38, 39, 48, 49],
+      "nodes" : [21, 26, 27, 32, 33, 38]
+    },
+    {
+      "id" : 10,
+      "token" : 4,
+      "resource" : "none",
+      "paths" : [41, 42, 50, 51, 55, 56],
+      "nodes" : [29, 34, 35, 39, 40, 44]
+    },
+    {
+      "id" : 17,
+      "token" : 3,
+      "resource" : "none",
+      "paths" : [43, 44, 51, 52, 57, 58],
+      "nodes" : [30, 35, 36, 40, 41, 45]
+    },
+    {
+      "id" : 16,
+      "token" : 6,
+      "resource" : "none",
+      "paths" : [45, 46, 52, 53, 59, 60],
+      "nodes" : [31, 36, 37, 41, 42, 46]
+    },
+    {
+      "id" : 6,
+      "token" : 10,
+      "resource" : "none",
+      "paths" : [47, 48, 53, 54, 61, 62],
+      "nodes" : [32, 37, 38, 42, 43, 47]
+    },
+    {
+      "id" : 9,
+      "token" : 11,
+      "resource" : "none",
+      "paths" : [56, 57, 63, 64, 67, 68],
+      "nodes" : [40, 44, 45, 48, 49, 52]
+    },
+    {
+      "id" : 8,
+      "token" : 12,
+      "resource" : "none",
+      "paths" : [58, 59, 64, 65, 69, 70],
+      "nodes" : [41, 45, 46, 49, 50, 53]
+    },
+    {
+      "id" : 7,
+      "token" : 9,
+      "resource" : "none",
+      "paths" : [60, 61, 65, 66, 71, 72],
+      "nodes" : [42, 46, 47, 50, 51, 54]
+    }
+  ],
+  "old_hexes": [{
+    "id" : 1,
+    "token" : 5,
+    "resource" : "none",
+    "paths" : [1, 2, 7, 8, 12, 13],
+    "nodes" : [1, 4, 5, 8, 9, 13]
+  },
+    {
+      "id" : 2,
+      "token" : 2,
+      "resource" : "none",
+      "paths" : [3, 4, 8, 9, 14, 15],
+      "nodes" : [2, 5, 6, 9, 10, 14]
+    },
+    {
+      "id" : 3,
+      "token" : 6,
+      "resource" : "none",
+      "paths" : [5, 6, 9, 10, 16, 17],
+      "nodes" : [3, 6, 7, 10, 11, 15]
+    },
+    {
+      "id" : 4,
+      "token" : 10,
+      "resource" : "none",
+      "paths" : [11, 12, 19, 20, 25, 26],
+      "nodes" : [8, 12, 13, 17, 18, 23]
+    },
+    {
+      "id" : 5,
+      "token" : 9,
+      "resource" : "none",
+      "paths" : [13, 14, 20, 21, 27, 28],
+      "nodes" : [9, 13, 14, 18, 19, 24]
+    },
+    {
+      "id" : 6,
+      "token" : 4,
+      "resource" : "none",
+      "paths" : [15, 16, 21, 22, 29, 30],
+      "nodes" : [10, 14, 15, 19, 20, 25]
+    },
+    {
+      "id" : 7,
+      "token" : 3,
+      "resource" : "none",
+      "paths" : [17, 18, 22, 23, 31, 32],
+      "nodes" : [11, 15, 16, 20, 21, 26]
+    },
+    {
+      "id" : 8,
+      "token" : 8,
+      "resource" : "none",
+      "paths" : [24, 25, 34, 35, 40, 41],
+      "nodes" : [17, 22, 23, 28, 29, 34]
+    },
+    {
+      "id" : 9,
+      "token" : 11,
+      "resource" : "none",
+      "paths" : [26, 27, 35, 36, 42, 43],
+      "nodes" : [18, 23, 24, 29, 30, 35]
+    },
+    {
+      "id" : 10,
+      "token" : 5,
+      "resource" : "none",
+      "paths" : [30, 31, 37, 38, 46, 47],
+      "nodes" : [20, 25, 26, 31, 32, 37]
+    },
+    {
+      "id" : 11,
+      "token" : 8,
+      "resource" : "none",
+      "paths" : [32, 33, 38, 39, 48, 49],
+      "nodes" : [21, 26, 27, 32, 33, 38]
+    },
+    {
+      "id" : 12,
+      "token" : 4,
+      "resource" : "none",
+      "paths" : [41, 42, 50, 51, 55, 56],
+      "nodes" : [29, 34, 35, 39, 40, 44]
+    },
+    {
+      "id" : 13,
+      "token" : 3,
+      "resource" : "none",
+      "paths" : [43, 44, 51, 52, 57, 58],
+      "nodes" : [30, 35, 36, 40, 41, 45]
+    },
+    {
+      "id" : 14,
+      "token" : 6,
+      "resource" : "none",
+      "paths" : [45, 46, 52, 53, 59, 60],
+      "nodes" : [31, 36, 37, 41, 42, 46]
+    },
+    {
+      "id" : 15,
+      "token" : 10,
+      "resource" : "none",
+      "paths" : [47, 48, 53, 54, 61, 62],
+      "nodes" : [32, 37, 38, 42, 43, 47]
+    },
+    {
+      "id" : 16,
+      "token" : 11,
+      "resource" : "none",
+      "paths" : [56, 57, 63, 64, 67, 68],
+      "nodes" : [40, 44, 45, 48, 49, 52]
+    },
+    {
+      "id" : 17,
+      "token" : 12,
+      "resource" : "none",
+      "paths" : [58, 59, 64, 65, 69, 70],
+      "nodes" : [41, 45, 46, 49, 50, 53]
+    },
+    {
+      "id" : 18,
+      "token" : 9,
+      "resource" : "none",
+      "paths" : [60, 61, 65, 66, 71, 72],
+      "nodes" : [42, 46, 47, 50, 51, 54]
+    }],
+  "wood" : 4,
+  "fur" : 3,
+  "clay" : 3,
+  "mountain" : 4,
+  "field" : 4
+}

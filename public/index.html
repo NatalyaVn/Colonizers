@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	    <meta charset="utf-8">
+        <title>Колонизаторы</title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="style.css">
+    </head> 
+	
+	<main class="waiting">
+		<h2>Подождите подключения следующего игрока</h2>
+	</main>
+	
+	<main class="game" hidden>
+			<h1 id = "hidden_h1">Игра «Колонизаторы»</h1>
+			<img src='img/Map_2.png' id = "map" width="770" height="720" />
+			<ul id="hexGrid">
+				<li id="-1" class="hex">
+					<div class="hexIn_invisible" ></div>
+				</li>
+				<li id="1" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/5_2.png' />
+					</div>
+				</li>
+				<li id="2" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/2_2.png' />
+					</div>
+				</li>
+				<li id="3" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/6_2.png' />
+					</div>
+				</li>
+				<li id="-2" class="hex">
+					<div class="hexIn_invisible"></div>
+				</li>
+				<li id="12" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/10_2.png' />
+					</div>
+				</li>
+				<li id="13" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/9_2.png' />
+					</div>
+				</li>
+				<li id="14" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/4_2.png' />
+					</div>
+				</li>
+				<li id="4" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/3_2.png' />
+					</div>
+				</li>
+				<li id="11" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/8_2.png' />
+					</div>
+				</li>
+				<li id="18" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/11_2.png' />
+					</div>
+				</li>
+				<li id="100" class="hex">
+					<div class="hexIn">
+						<img src="img/desert.png"/>
+					</div>
+				</li>
+				<li id="15" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/5_2.png' />
+					</div>
+				</li>
+				<li id="5" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/8_2.png' /> 
+					</div>
+				</li>
+				<li id="10" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/4_2.png' /> 
+					</div>
+				</li>
+				<li id="17" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/3_2.png' /> 
+					</div>
+				</li>
+				<li id="16" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/6_2.png' /> 
+					</div>
+				</li>
+				<li id="6" class="hex">
+					<div class='hexIn'>
+						<img src='' />
+						<img src='img/10_2.png' /> 
+					</div>
+				</li>
+				<li id="0" class="hex">
+					<div class="hexIn_invisible"></div>
+				</li>
+				<li id="9" class="hex">
+						<div class='hexIn'><img src='' />
+						<img src='img/11_2.png' /> 
+					</div>
+				</li>
+				<li id="8" class="hex">
+						<div class='hexIn'><img src='' />
+						<img src='img/12_2.png' /> 
+					</div>
+				</li>
+				<li id="7" class="hex">
+						<div class='hexIn'><img src='' />
+						<img src='img/9_2.png' /> 
+					</div>
+				</li>
+			</ul>
+			<svg viewBox="0 0 770 720">
+				<circle class = "crossroads" id = "n1" r="15" cx="249.5" cy="50"/>
+				<circle class = "crossroads" id = "n2" r="15" cx="384" cy="50"/>
+				<circle class = "crossroads" id = "n3" r="15" cx="518.5" cy="50"/>
+				
+				<circle class = "crossroads" id = "n4" r="15" cx="180" cy="82"/>
+				<circle class = "crossroads" id = "n5" r="15" cx="316" cy="82"/>
+				<circle class = "crossroads" id = "n6" r="15" cx="450" cy="82"/>
+				<circle class = "crossroads" id = "n7" r="15" cx="583" cy="82"/>
+			
+				<circle class = "crossroads" id = "n8" r="15" cx="180" cy="162"/>
+				<circle class = "crossroads" id = "n9" r="15" cx="316" cy="162"/>
+				<circle class = "crossroads" id = "n10" r="15" cx="450" cy="162"/>
+				<circle class = "crossroads" id = "n11" r="15" cx="583" cy="162"/>
+				
+				<circle class = "crossroads" id = "n12" r="15" cx="115" cy="200"/>
+				<circle class = "crossroads" id = "n13" r="15" cx="249.5" cy="200"/>
+				<circle class = "crossroads" id = "n14" r="15" cx="384" cy="200"/>
+				<circle class = "crossroads" id = "n15" r="15" cx="518.5" cy="200"/>
+				<circle class = "crossroads" id = "n16" r="15" cx="653" cy="200"/>
+				
+				<circle class = "crossroads" id = "n17" r="15" cx="115" cy="280"/>
+				<circle class = "crossroads" id = "n18" r="15" cx="249.5" cy="280"/>
+				<circle class = "crossroads" id = "n19" r="15" cx="384" cy="280"/>
+				<circle class = "crossroads" id = "n20" r="15" cx="518.5" cy="280"/>
+				<circle class = "crossroads" id = "n21" r="15" cx="653" cy="280"/>
+				
+				<circle class = "crossroads" id = "n22" r="15" cx="47.75" cy="318"/>
+				<circle class = "crossroads" id = "n23" r="15" cx="181.75" cy="318"/>
+				<circle class = "crossroads" id = "n24" r="15" cx="316.75" cy="318"/>
+				<circle class = "crossroads" id = "n25" r="15" cx="451.25" cy="318"/>
+				<circle class = "crossroads" id = "n26" r="15" cx="586.25" cy="318"/>
+				<circle class = "crossroads" id = "n27" r="15" cx="720.25" cy="318"/>
+				
+				<circle class = "crossroads" id = "n28" r="15" cx="47.75" cy="398"/>
+				<circle class = "crossroads" id = "n29" r="15" cx="181.75" cy="398"/>
+				<circle class = "crossroads" id = "n30" r="15" cx="316.75" cy="398"/>
+				<circle class = "crossroads" id = "n31" r="15" cx="451.25" cy="398"/>
+				<circle class = "crossroads" id = "n32" r="15" cx="586.25" cy="398"/>
+				<circle class = "crossroads" id = "n33" r="15" cx="720.25" cy="398"/>
+				
+				<circle class = "crossroads" id = "n34" r="15" cx="115" cy="436"/>
+				<circle class = "crossroads" id = "n35" r="15" cx="249.5" cy="436"/>
+				<circle class = "crossroads" id = "n36" r="15" cx="384" cy="436"/>
+				<circle class = "crossroads" id = "n37" r="15" cx="518.5" cy="436"/>
+				<circle class = "crossroads" id = "n38" r="15" cx="653" cy="436"/>
+				
+				<circle class = "crossroads" id = "n39" r="15" cx="115" cy="516"/>
+				<circle class = "crossroads" id = "n40" r="15" cx="249.5" cy="516"/>
+				<circle class = "crossroads" id = "n41" r="15" cx="384" cy="516"/>
+				<circle class = "crossroads" id = "n42" r="15" cx="518.5" cy="516"/>
+				<circle class = "crossroads" id = "n43" r="15" cx="653" cy="516"/>
+				
+				<circle class = "crossroads" id = "n44" r="15" cx="180" cy="554"/>
+				<circle class = "crossroads" id = "n45" r="15" cx="316" cy="554"/>
+				<circle class = "crossroads" id = "n46" r="15" cx="450" cy="554"/>
+				<circle class = "crossroads" id = "n47" r="15" cx="583" cy="554"/>
+				
+				<circle class = "crossroads" id = "n48" r="15" cx="180" cy="634"/>
+				<circle class = "crossroads" id = "n49" r="15" cx="316" cy="634"/>
+				<circle class = "crossroads" id = "n50" r="15" cx="450" cy="634"/>
+				<circle class = "crossroads" id = "n51" r="15" cx="583" cy="634"/>
+				
+				<circle class = "crossroads" id = "n52" r="15" cx="249.5" cy="666"/>
+				<circle class = "crossroads" id = "n53" r="15" cx="384" cy="666"/>
+				<circle class = "crossroads" id = "n54" r="15" cx="518.5" cy="666"/>
+				
+				<circle class = "paths angle60" id = "r1" r="12.5" cx="214.75" cy="66"/>
+				<circle class = "paths angle120" id = "r2" r="12.5" cx="282.75" cy="66"/>
+				<circle class = "paths angle60" id = "r3" r="12.5" cx="350.75" cy="66"/>
+				<circle class = "paths angle120" id = "r4" r="12.5" cx="418.75" cy="66"/>
+				<circle class = "paths angle60" id = "r5" r="12.5" cx="486.75" cy="66"/>
+				<circle class = "paths angle120" id = "r6" r="12.5" cx="554.75" cy="66"/>
+			
+				<circle class = "paths" id = "r7" r="12.5" cx="185" cy="122"/>
+				<circle class = "paths" id = "r8" r="12.5" cx="316" cy="122"/>
+				<circle class = "paths" id = "r9" r="12.5" cx="450" cy="122"/>
+				<circle class = "paths" id = "r10" r="12.5" cx="582" cy="122"/>
+				
+				<circle class = "paths angle60" id = "r11" r="12.5" cx="146.75" cy="181" />
+				<circle class = "paths angle120" id = "r12" r="12.5" cx="214.75" cy="181" />
+				<circle class = "paths angle60" id = "r13" r="12.5" cx="282.75" cy="181" />
+				<circle class = "paths angle120" id = "r14" r="12.5" cx="350.75" cy="181" />
+				<circle class = "paths angle60" id = "r15" r="12.5" cx="418.75" cy="181" />
+				<circle class = "paths angle120" id = "r16" r="12.5" cx="486.75" cy="181" />
+				<circle class = "paths angle60" id = "r17" r="12.5" cx="554.75" cy="181" />
+				<circle class = "paths angle120" id = "r18" r="12.5" cx="622.75" cy="181" />
+				
+				<circle class = "paths" id = "r19" r="12.5" cx="115" cy="240" />
+				<circle class = "paths" id = "r20" r="12.5" cx="249.5" cy="240" />
+				<circle class = "paths" id = "r21" r="12.5" cx="384" cy="240" />
+				<circle class = "paths" id = "r22" r="12.5" cx="518.5" cy="240" />
+				<circle class = "paths" id = "r23" r="12.5" cx="653" cy="240" />
+				
+				<circle class = "paths angle60" id = "r24" r="12.5" cx="78.75" cy="299" />
+				<circle class = "paths angle120" id = "r25" r="12.5" cx="146.75" cy="299" />
+				<circle class = "paths angle60" id = "r26" r="12.5" cx="214.75" cy="299" />
+				<circle class = "paths angle120" id = "r27" r="12.5" cx="282.75" cy="299" />
+				<circle class = "paths angle60" id = "r28" r="12.5" cx="350.75" cy="299" />
+				<circle class = "paths angle120" id = "r29" r="12.5" cx="418.75" cy="299" />
+				<circle class = "paths angle60" id = "r30" r="12.5" cx="486.75" cy="299" />
+				<circle class = "paths angle120" id = "r31" r="12.5" cx="554.75" cy="299"/>
+				<circle class = "paths angle60" id = "r32" r="12.5" cx="622.75" cy="299" />
+				<circle class = "paths angle120" id = "r33" r="12.5" cx="690.75" cy="299" />
+				
+				<circle class = "paths" id = "r34" r="12.5" cx="47.75" cy="358" />
+				<circle class = "paths" id = "r35" r="12.5" cx="181.75" cy="358" />
+				<circle class = "paths" id = "r36" r="12.5" cx="316.75" cy="358" />
+				<circle class = "paths" id = "r37" r="12.5" cx="451.25" cy="358" />
+				<circle class = "paths" id = "r38" r="12.5" cx="586.25" cy="358" />
+				<circle class = "paths" id = "r39" r="12.5" cx="720.25" cy="358" />
+				
+				<circle class = "paths angle120" id = "r40" r="12.5" cx="78.75" cy="417" />
+				<circle class = "paths angle60" id = "r41" r="12.5" cx="146.75" cy="417" />
+				<circle class = "paths angle120" id = "r42" r="12.5" cx="214.75" cy="417" />
+				<circle class = "paths angle60" id = "r43" r="12.5" cx="282.75" cy="417" />
+				<circle class = "paths angle120" id = "r44" r="12.5" cx="350.75" cy="417" />
+				<circle class = "paths angle60" id = "r45" r="12.5" cx="418.75" cy="417" />
+				<circle class = "paths angle120" id = "r46" r="12.5" cx="486.75" cy="417" />
+				<circle class = "paths angle60" id = "r47" r="12.5" cx="554.75" cy="417" />
+				<circle class = "paths angle120" id = "r48" r="12.5" cx="622.75" cy="417" />
+				<circle class = "paths angle60" id = "r49" r="12.5" cx="690.75" cy="417" />
+				
+				<circle class = "paths" id = "r50" r="12.5" cx="115" cy="476" />
+				<circle class = "paths" id = "r51" r="12.5" cx="249.5" cy="476" />
+				<circle class = "paths" id = "r52" r="12.5" cx="384" cy="476" />
+				<circle class = "paths" id = "r53" r="12.5" cx="518.5" cy="476" />
+				<circle class = "paths" id = "r54" r="12.5" cx="653" cy="476" />
+				
+				<circle class = "paths angle120" id = "r55" r="12.5" cx="146.75" cy="535" />
+				<circle class = "paths angle60" id = "r56" r="12.5" cx="214.75" cy="535" />
+				<circle class = "paths angle120" id = "r57" r="12.5" cx="282.75" cy="535" />
+				<circle class = "paths angle60" id = "r58" r="12.5" cx="350.75" cy="535" />
+				<circle class = "paths angle120" id = "r59" r="12.5" cx="418.75" cy="535" />
+				<circle class = "paths angle60" id = "r60" r="12.5" cx="486.75" cy="535" />
+				<circle class = "paths angle120" id = "r61" r="12.5" cx="554.75" cy="535" />
+				<circle class = "paths angle60" id = "r62" r="12.5" cx="622.75" cy="535" />
+				
+				<circle class = "paths" id = "r63" r="12.5" cx="185" cy="594" />
+				<circle class = "paths" id = "r64" r="12.5" cx="316" cy="594" />
+				<circle class = "paths" id = "r65" r="12.5" cx="450" cy="594" />
+				<circle class = "paths" id = "r66" r="12.5" cx="582" cy="594" />
+				
+				<circle class = "paths angle120" id = "r67" r="12.5" cx="214.75" cy="648" />
+				<circle class = "paths angle60" id = "r68" r="12.5" cx="282.75" cy="648" />
+				<circle class = "paths angle120" id = "r69" r="12.5" cx="350.75" cy="648" />
+				<circle class = "paths angle60" id = "r70" r="12.5" cx="418.75" cy="648" />
+				<circle class = "paths angle120" id = "r71" r="12.5" cx="486.75" cy="648" />
+				<circle class = "paths angle60" id = "r72" r="12.5" cx="554.75" cy="648" />
+			</svg>
+			<main id="params">
+				<section class = "blocks">
+					<div id = "block1">
+						<p id="turn">Ход</p>
+						<button class="btn_red" id="btn_red_large">Сдаться</button>
+					</div>
+					<table id="tableInfo">
+						<tr>
+							<td class = "tableTdInfo column1"></td>
+							<td id="loginP1" class="textBold tableTdInfo column2">Игрок 1</td>
+							<td class = "tableTdInfo" rowspan = 3>VS</td>
+							<td class = "tableTdInfo column4" id="loginP2">Игрок 2<td>
+						</tr>
+						<tr>
+							<td class = "tableTdInfo column1">Количество очков</td>
+							<td id="pointsP1" class="textBold tableTdInfo column2"></td>
+							<td class = "tableTdInfo column4" id="pointsP2"></td>
+						</tr>
+						<tr>
+							<td class = "tableTdInfo column1">Количество карт</td>
+							<td class = "tableTdInfo textBold column2" id="cardsP1"></td>
+							<td id="cardsP2" class="tableTdInfo column4"></td>
+						</tr>
+					</table>
+				</section>
+				<ul class = "blocks">
+					<li>
+						<img src='img/card_wood.png'  />
+						<p id="wood"></p>
+					</li>
+					<li>
+						<img src='img/card_fur3.png'  />
+						<p id="fur"></p>
+					</li>
+					<li>
+						<img src='img/card_clay2.png'  />
+						<p id="clay"></p>
+					</li>
+					<li>
+						<img src='img/card_mountain.png'  />
+						<p id="mountain"></p>
+					</li>
+					<li>
+						<img src='img/card_field.png'  />
+						<p id="field"></p>
+					</li>
+				</ul>
+				<section class = "bat blocks">
+					<button class = "choice mebat" id="hoverRoad" key="0" wasActive="0">
+						<img src='img/road_blue_ikon.png' class="front_img"/>
+						<div id="divHoverRoad">
+							<img src='img/card_wood_mini.png' alt=''/>
+							<img src='img/card_clay_mini.png' alt=''/>
+						</div >
+						<br>
+						<p class = "sign">Построить дорогу</p>
+					</button>
+					<button class = "choice mebat" id="hoverVillage" key="0" wasActive="0">
+						<img src='img/village_blue_ikon.png' class="front_img"/>
+						<div id="divHoverVillage">
+							<img src='img/card_wood_mini.png' alt=''/>
+							<img src='img/card_clay_mini.png' alt=''/>
+							<img src='img/card_fur_mini.png' alt=''/>
+							<img src='img/card_field_mini.png' alt=''/>
+						</div >
+						<br>
+						<p class = "sign">Построить поселение</p>
+					</button>
+					<button class = "choice mebat" id="hoverCity" key="0" wasActive="0">
+						<img src='img/city_blue_ikon.png' class="front_img"/>
+						<div id="divHoverCity">
+							<img src='img/card_field_mini.png' alt=''/>
+							<img src='img/card_field_mini.png' alt=''/>
+							<img src='img/card_mountain_mini.png' alt=''/>
+							<img src='img/card_mountain_mini.png' alt=''/>
+							<img src='img/card_mountain_mini.png' alt=''/>
+						</div>
+						<br>
+						<p class = "sign">Построить город</p>
+					</button>
+				</section>
+				<section class = "blocks">
+					<button class = "choice trade" id = "t4" ><img src='img/4k1.png' /><br><p class = "sign">Торговля<br>с банком</p></button>
+					<button class = "choice trade" id = "t3"><img src='img/3k1.png' /><br><p class = "sign">Торговля<br>в простой гавани</p></button>
+					<button class = "choice trade" id = "t2"><img src='img/2k1.png' /><br><p class = "sign">Торговля<br>в особой гавани</p></button>
+				</section>
+				<section class = "blocks">
+					<div id = "numberDice">0</div>
+					<button class="btn_green" id="diceRoll">Бросить кубики</button>
+					<button class="btn_green" id="endTurn">Завершить ход</button>
+				</section>
+			</main>
+			<div id="trade">
+				<table id="tableTrade">
+					<tr>
+						<td class = "tdTrade">
+							<button class="btn_red alignCenter" id="closeTrade">Отменить</button>
+						</td>
+						<td id = "tradeImg" class = "tdTrade">
+							<img class = "alignCenter" src="" />
+						</td>
+						<td class = "alignCenter tdTrade">
+							<button class="btn_green alignCenter" id="sendTrade">Поменять</button>
+						</td>
+					</tr>
+					<tr>
+						<td class = "tdTrade">
+							Выберите материал, <br>который хотите обменять
+						</td>
+						<td class = "tdTrade">
+						</td>
+						<td class = "tdTrade">
+							Выберите материал, <br>который хотите получить
+						</td>
+					</tr>
+					<tr>
+						<td class = "trade_img tdTrade">
+							<ul class="tradeMaterials">
+								<li id="1_wood" class = "mat"><img src='img/card_wood.png' alt=''/></li>
+								<li id="1_fur" class = "mat"><img src='img/card_fur3.png' alt=''/></li>
+								<li id="1_clay" class = "mat"><img src='img/card_clay2.png' alt=''/></li>
+								<li id="1_mountain" class = "mat"><img src='img/card_mountain.png' alt=''/></li>
+								<li id="1_field" class = "mat"><img src='img/card_field.png' alt=''/></li>
+							</ul>
+						</td>
+						<td class = "tdTrade">
+						</td>
+						<td class = "trade_img tdTrade">
+							<ul class="tradeMaterials">
+								<li id="2_wood" class = "mat2"><img src='img/card_wood.png' alt=''/></li>
+								<li id="2_fur" class = "mat2"><img src='img/card_fur3.png' alt=''/></li>
+								<li id="2_clay" class = "mat2"><img src='img/card_clay2.png' alt=''/></li>
+								<li id="2_mountain" class = "mat2"><img src='img/card_mountain.png' alt=''/></li>
+								<li id="2_field" class = "mat2"><img src='img/card_field.png' alt=''/></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+	</main>
+	
+	<main class="result" hidden>
+		<h2>Игра закончена</h2>
+		<p>Игра прервана</p>
+		<button type="button" class="restart">Перезапустить</button>
+	</main>
+	
+	<script type="module" src="scripts/index.js"></script>
+</html>

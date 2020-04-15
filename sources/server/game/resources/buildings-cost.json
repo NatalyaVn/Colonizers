@@ -1,0 +1,23 @@
+{
+  "road": {
+    "wood": 1,
+    "fur": 0,
+    "clay": 1,
+    "mountain": 0,
+    "field": 0
+  },
+  "village" : {
+    "wood": 1,
+    "fur": 1,
+    "clay": 1,
+    "mountain": 0,
+    "field": 1
+  },
+  "city" : {
+    "wood": 0,
+    "fur": 0,
+    "clay": 0,
+    "mountain": 3,
+    "field": 2
+  }
+}
